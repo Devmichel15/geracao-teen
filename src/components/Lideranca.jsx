@@ -6,55 +6,36 @@ export default function Lideranca() {
     {
       name: "Emanuela Munana",
       role: "Líder Geral",
-      bio: "Apaixonada por Deus e pelo Evangelho, Thiago dedica a sua vida a ver adolescentes encontrando um propósito verdadeiro em Jesus Cristo e crescendo na fé pentecostal.",
-      verse: "Romanos 1:16",
-      verseText: "Porque não me envergonho do evangelho de Cristo, pois é o poder de Deus para salvação de todo aquele que crê.",
+      verse: "II Coríntios 5:17",
+      verseText:
+        "Assim que, se alguém está em Cristo, nova Criatura é: as coisas velhas já passaram e eis que tudo se fez novo",
       image: "/lider1.jpg",
       color: "border-brand-pink text-brand-pink shadow-[5px_5px_0px_#F665BE]",
     },
     {
       name: "Abrãao Ferreira",
-      role: "Líder de Louvor",
-      bio: "Minônima de louvor e serva do Senhor. Beatriz acredita que a adoração genuina é a ponte entre o coração do jovem e o coração de Deus, e lidera o louvor da Geração Teen com ungção.",
-      verse: "Salmos 150:6",
-      verseText: "Tudo o que tem fôlego louve ao Senhor. Louvai ao Senhor.",
-      image: "/leader_beatriz.png",
-      color: "border-brand-blue text-brand-blue shadow-[5px_5px_0px_#84C1F6]",
+      role: "Líder do Louvor",
+      verse: "João 11:35 || Isaías 40:31",
+      verseText: "E Jesus Chorou ! || Mas os que esperam no Senhor renovarão as suas forças e subirão com asas como águias, correrão e não se cansarão, caminharão e não se fatigarão",
+      avatar: "AF",
+      color: "border-brand-pink text-brand-pink shadow-[5px_5px_0px_#F665BE]",
     },
     {
-      name: "Lucas Oliveira",
-      role: "Líder de Discípulos",
-      bio: "Lucas é apaixonado pelo discipulado bíblico e por acompanhar jovens na sua caminhada com Deus, ajudando cada um a descobrir a sua identidade e vocação em Cristo.",
-      verse: "Tiago 2:18",
-      verseText: "Mostra-me a tua fé sem as tuas obras, e eu te mostrarei a minha fé pelas minhas obras.",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400&h=400",
+      name: "Gelson Paka",
+      role: "Líder da Intercessão",
+      verse: "Oséias 6:1-3",
+      verseText:
+        "1 Vinde, e tornemos ao Senhor, porque ele despedaçou, e nos sarará; feriu, e nos atará a ferida. 2 Depois de dois dias nos dará a vida; ao terceiro dia nos ressuscitará, e viveremos diante dele.",
+      image: "/lider2.png",
       color: "border-yellow-400 text-yellow-400 shadow-[5px_5px_0px_#facc15]",
     },
     {
-      name: "Emanuela Munana",
-      role: "Líder Geral",
-      bio: "Apaixonada por Deus e pelo Evangelho, Thiago dedica a sua vida a ver adolescentes encontrando um propósito verdadeiro em Jesus Cristo e crescendo na fé pentecostal.",
-      verse: "Romanos 1:16",
-      verseText: "Porque não me envergonho do evangelho de Cristo, pois é o poder de Deus para salvação de todo aquele que crê.",
-      image: "/lider1.jpg",
-      color: "border-brand-pink text-brand-pink shadow-[5px_5px_0px_#F665BE]",
-    },
-    {
-      name: "Abrãao Ferreira",
-      role: "Líder de Louvor",
-      bio: "Minônima de louvor e serva do Senhor. Beatriz acredita que a adoração genuina é a ponte entre o coração do jovem e o coração de Deus, e lidera o louvor da Geração Teen com ungção.",
-      verse: "Salmos 150:6",
-      verseText: "Tudo o que tem fôlego louve ao Senhor. Louvai ao Senhor.",
-      image: "/leader_beatriz.png",
-      color: "border-brand-blue text-brand-blue shadow-[5px_5px_0px_#84C1F6]",
-    },
-    {
-      name: "Lucas Oliveira",
-      role: "Líder de Discípulos",
-      bio: "Lucas é apaixonado pelo discipulado bíblico e por acompanhar jovens na sua caminhada com Deus, ajudando cada um a descobrir a sua identidade e vocação em Cristo.",
-      verse: "Tiago 2:18",
-      verseText: "Mostra-me a tua fé sem as tuas obras, e eu te mostrarei a minha fé pelas minhas obras.",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400&h=400",
+      name: "Tikaylane Gerry",
+      role: "Líder dos Voluntários",
+      verse: "Romanos 12:2",
+      verseText:
+        "Não vos conformeis com este mundo, mas transformai-vos pela renovação do vosso entendimento, para que experimenteis qual seja a boa, agradável e perfeita vontade de Deus.",
+      image: "/lider3.png",
       color: "border-yellow-400 text-yellow-400 shadow-[5px_5px_0px_#facc15]",
     },
   ];
@@ -95,11 +76,16 @@ export default function Lideranca() {
               <div>
                 {/* Photo container */}
                 <div className="relative w-full aspect-square mb-6 border-2 border-black rounded-md overflow-hidden bg-brand-dark shadow-inner">
-                  <img
+                  {leader.image ? <img
                     src={leader.image}
                     alt={leader.name}
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                   />
+                : <span className="flex items-center justify-center text-6xl h-full">
+                  {leader.avatar}
+                </span>
+                }
+                  
                   <div className="absolute top-3 left-3 bg-black/85 border border-white/20 text-white font-boogaloo text-sm px-3 py-1 rounded-sm uppercase tracking-widest">
                     {leader.role}
                   </div>
@@ -110,10 +96,7 @@ export default function Lideranca() {
                   {leader.name}
                 </h3>
 
-                {/* Bio */}
-                <p className="font-nunito text-sm text-slate-300 leading-relaxed mb-6">
-                  {leader.bio}
-                </p>
+                
               </div>
 
               {/* Verse Overlay on Hover */}

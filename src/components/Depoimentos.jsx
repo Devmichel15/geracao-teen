@@ -12,6 +12,38 @@ export default function Depoimentos() {
       avatar: "NA",
       color: "border-brand-pink text-brand-pink",
     },
+    {
+      id: 2,
+      name: "Rayssa Rodrigues",
+      tag: "Ministério de Louvor | Intercessão",
+      text: "Na GT eu percebi o verdadeiro sentido da frase “ferro afia ferro”, porque é isso que nós somos; adolescentes em 1Tessalonicenses 5:11",
+      avatar: "RR",
+      color: "border-brand-pink text-brand-pink",
+    },
+    {
+      id: 3,
+      name: "Irmã Nílcia",
+      tag: "Multimídia | Intercessão",
+      text: "A Geração Tenn, para mim, representa muito mais do que um simples núcleo; é um lugar de crescimento, aprendizado e transformação. É um ambiente que, a cada dia, me inspira a ser uma pessoa melhor, a buscar a excelência em tudo o que faço e a desenvolver cada vez mais as minhas capacidades. Fazer parte da Geração Tenn motiva-me a superar limites, a aperfeiçoar os meus talentos e a brilhar com propósito, dedicação e compromisso. É um espaço onde sou constantemente incentivada a evoluir, a sonhar mais alto e a dar o meu melhor em cada desafio que surge. ✨💙",
+      avatar: "IN",
+      color: "border-brand-pink text-brand-pink",
+    },
+    {
+      id: 4,
+      name: "Irmã Analia",
+      tag: "Voluntários",
+      text: "Bem, quando entrei na geração Teen era muito tímida, fechada e preferia andar sozinha q  conversar com os irmãos (não conhecia ninguém também). Passei três meses assim, e só no dia 29/12 de 2024 eu fiz as minhas primeiras amizades q foram o Júnior e a Rolle. Graças a eles eu pude conhecer mais irmãos, conheci os líderes e pude mostrar um pouco da minha personalidade. Passei por altos e baixos, ajudei alguns irmãos, outros ajudam-me bastante, tive problemas também, mas tudo isso foi um processo de mudança para a minha vida.  Eu digo q graças a Deus, eu venci a minha timidez, consigo mostrar para outros adolescentes o verdadeiro caminho, tenho amigos q me levam para o caminho certo, líderes q reconhecem o meu esforço, uma paixão em meu coração e o mais importante q tudo, o amor incondicional de Cristo por mim.",
+      avatar: "IA",
+      color: "border-brand-pink text-brand-pink",
+    },
+    {
+      id: 5,
+      name: "Tadiamara Missão",
+      tag: "Ministério de Louvor",
+      text: "Sou a irmã Tadiamara Missão e particularmente, sinto que Deus criou a geração teen para ser a minha guia na minha caminhada profunda com Deus , aprendo bastante, sinto o carinho e atenção de Deus, foi na geração teen que eu vivi um dos momentos mais maravilhosos q foi o batismo do Espírito Santo, foi na geração teen que eu aprendi a ser mais profunda no meu relacionamento com Deus ,conheci pessoas q hoje são um grande apoio na minha caminhada com Deus, e foi na geração teen q morreu a Tadiamara morna e nasceu a Tadiamara q anseia por Cristo, e sei q ainda irei aprender muito",
+      avatar: "IA",
+      color: "border-brand-pink text-brand-pink",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
