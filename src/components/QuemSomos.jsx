@@ -277,7 +277,6 @@ export default function QuemSomos() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="reveal-item p-5 bg-[#25253A]/40 border-l-4 border-brand-pink rounded-r-md backdrop-blur-sm">
               <div className="flex items-center gap-2 mb-2">
-                <Eye className="text-brand-pink w-6 h-6" />
                 <h3 className="font-fredoka font-bold text-lg text-white">Nossa Visão</h3>
               </div>
               <p className="font-nunito text-sm text-slate-300 leading-relaxed">
@@ -287,7 +286,6 @@ export default function QuemSomos() {
 
             <div className="reveal-item p-5 bg-[#25253A]/40 border-l-4 border-brand-blue rounded-r-md backdrop-blur-sm">
               <div className="flex items-center gap-2 mb-2">
-                <Target className="text-brand-blue w-6 h-6" />
                 <h3 className="font-fredoka font-bold text-lg text-white">Nossos Valores</h3>
               </div>
               <p className="font-nunito text-sm text-slate-300 leading-relaxed">

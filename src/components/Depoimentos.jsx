@@ -44,6 +44,14 @@ export default function Depoimentos() {
       avatar: "IA",
       color: "border-brand-pink text-brand-pink",
     },
+    {
+      id: 6,
+      name: "Cláudio Farias",
+      tag: "Intercessão",
+      text: "Faço parte da Geração Teen há quase dois anos, praticamente desde a sua criação. Ao longo deste percurso, sinto que tive uma evolução significativa: aprimorei as minhas ações, desenvolvi as minhas capacidades cognitivas e ganhei uma maior perceção de 'corpo' e comunidade em relação aos outros irmãos (jovens e adolescentes da minha faixa etária, tanto mais velhos como mais novos). Desde o início, o meu maior desejo sempre foi estreitar a minha relação com Deus, fortalecer a minha fé e desenvolver uma maior capacidade crítica e conhecimento relativamente à Palavra. cooperar no Ministério de Intercessão. Foi aí que percebi que manter uma vida de oração, meditar na Palavra e procurar a intimidade com Deus são processos profundos — algo que vai muito além da visão superficial que a maioria das pessoas tem. Essa vivência transformou a minha perspetiva, inclusive sobre o tema da 'Manifestação'. Antes, tendia a achar que a maioria das pessoas queria apenas aparecer ou chamar a atenção. No entanto, compreendi que há quem passe genuinamente por isso e cheguei a uma conclusão importante: O facto de alguém não manifestar visualmente não significa que o demónio não o possa estar a usar de outras formas. Infelizmente, desde que entrei para a Universidade, a gestão do tempo tornou-se um desafio. Devido à intensa carga horária semanal, precisei de reajustar o meu foco: hoje, mais do que priorizar o 'setor da intercessão', priorizo o meu relacionamento direto com Deus. Ainda assim, sinto falta daquela intensidade inicial e o meu grande anseio atual é reorganizar-me para voltar ao meu 'prime' espiritual.",
+      avatar: "CF",
+      color: "border-brand-blue text-brand-blue",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

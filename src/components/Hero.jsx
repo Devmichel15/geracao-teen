@@ -130,7 +130,7 @@ export default function Hero() {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-screen w-full bg-brand-dark bg-dark-grid flex items-center justify-center overflow-hidden px-6 pt-20 pb-12 bg-grunge-overlay"
+      className="relative min-h-screen mt-10 w-full bg-brand-dark bg-dark-grid flex items-center justify-center overflow-hidden px-6 pt-20 pb-12 bg-grunge-overlay"
     >
       {/* Particle Canvas */}
       <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none z-10" />

@@ -16,9 +16,10 @@ export default function Lideranca() {
       name: "Abrãao Ferreira",
       role: "Líder do Louvor",
       verse: "João 11:35 || Isaías 40:31",
-      verseText: "E Jesus Chorou ! || Mas os que esperam no Senhor renovarão as suas forças e subirão com asas como águias, correrão e não se cansarão, caminharão e não se fatigarão",
-      avatar: "AF",
-      color: "border-brand-pink text-brand-pink shadow-[5px_5px_0px_#F665BE]",
+      verseText:
+        "E Jesus Chorou ! || Mas os que esperam no Senhor renovarão as suas forças e subirão com asas como águias, correrão e não se cansarão, caminharão e não se fatigarão",
+      image: "/lider4.jpg",
+      color: "border-brand-blue text-brand-blue shadow-[5px_5px_0px_#84C1F6]",
     },
     {
       name: "Gelson Paka",
@@ -27,7 +28,7 @@ export default function Lideranca() {
       verseText:
         "1 Vinde, e tornemos ao Senhor, porque ele despedaçou, e nos sarará; feriu, e nos atará a ferida. 2 Depois de dois dias nos dará a vida; ao terceiro dia nos ressuscitará, e viveremos diante dele.",
       image: "/lider2.png",
-      color: "border-yellow-400 text-yellow-400 shadow-[5px_5px_0px_#facc15]",
+      color: "border-brand-blue text-brand-blue shadow-[5px_5px_0px_#84C1F6]",
     },
     {
       name: "Tikaylane Gerry",
@@ -36,7 +37,7 @@ export default function Lideranca() {
       verseText:
         "Não vos conformeis com este mundo, mas transformai-vos pela renovação do vosso entendimento, para que experimenteis qual seja a boa, agradável e perfeita vontade de Deus.",
       image: "/lider3.png",
-      color: "border-yellow-400 text-yellow-400 shadow-[5px_5px_0px_#facc15]",
+      color: "border-brand-pink text-brand-pink shadow-[5px_5px_0px_#F665BE]",
     },
   ];
 
